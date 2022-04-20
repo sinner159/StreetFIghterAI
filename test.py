@@ -1,5 +1,5 @@
 import retro
-sfgame='StreetFighterIISpecialChampionEdition-Genesis'
+sfgame='Airstriker-Genesis'
 
 def main():
     env = retro.make(game=sfgame)

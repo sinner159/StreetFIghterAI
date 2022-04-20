@@ -11,8 +11,9 @@
             "program": "test.py",
             "console": "integratedTerminal",
             "python": "${workspaceFolder}/Scripts/python.exe",
+            "localRoot": "${workspaceFolder}/",
             "remoteRoot": "${workspaceFolder}/",
-            "justMyCode": true
+            "justMyCode": false
         }
     ]
 }
