@@ -1,11 +1,12 @@
 import retro
-sfgame='Airstriker-Genesis'
+sfgame='StreetFighterIISpecialChampionEdition-Genesis'
 
 def main():
     env = retro.make(game=sfgame)
     obs = env.reset()
     while True:
-        obs, rew, done, info = env.step(env.action_space.sample())
+        a = env.action_space.sample()
+        obs, rew, done, info = env.step(a)
         env.render()
         if done:
             obs = env.reset()
