@@ -1,0 +1,8 @@
+4/21
+
+-Identify useful variables from "info"
+-Add RAM addresses to data.json
+-Brainstorm how to build search tree
+  -Maybe prune based on x,y positions?
+  -Eliminate useless button combos?
+-Research Genetic Algorithms
