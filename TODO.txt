@@ -5,4 +5,5 @@
 -Brainstorm how to build search tree
   -Maybe prune based on x,y positions?
   -Eliminate useless button combos?
--Research Genetic Algorithms
+-Get RL PPO2 lib working
+  -Fix Baselines installation process
